@@ -21,7 +21,7 @@ class tech(BaseFeedBook):
     feeds = [
         ('36kr', 'http://www.36kr.com/feed?1.0'),
         (u'TechCrunch 中国', 'http://techcrunch.cn/feed/'),
-        (u'爱范儿', 'http://www.ifanr.com/feed'),
+        (u'the verge', 'https://rsshub.app/verge'),
         ('Top News - MIT Technology Review', 'http://www.technologyreview.com/topnews.rss'),
         ('Hacker News', 'https://news.ycombinator.com/rss'),
         (u'麻省理工科技评论', 'http://zhihurss.miantiao.me/section/id/14'),
@@ -32,14 +32,15 @@ class tech(BaseFeedBook):
         (u'科普公园', 'http://www.scipark.net/feed/'),
         (u'科学松鼠会', 'http://songshuhui.net/feed'),
         (u'泛科学', 'http://pansci.tw/feed'),
-        (u'果壳网', 'http://www.guokr.com/rss/'),
-        (u'简书推荐', 'http://jianshu.milkythinking.com/feeds/recommendations/notes'),
+        (u'果壳网', 'https://rsshub.app/guokr/scientific'),
         ('Quora', 'http://www.quora.com/rss', True),
-        ('The Economist: China', 'http://www.economist.com/feeds/print-sections/77729/china.xml'),
+        ('The Economist: China', 'https://feeds.yhiblog.eu.org/TheEconomist-China', True),
         ('The Economist: Science and technology',
-         'http://www.economist.com/feeds/print-sections/80/science-and-technology.xml'),
+         'https://feeds.yhiblog.eu.org/TheEconomist-ScienceAndTechnology', True),
         (u'知乎日报', 'http://zhihurss.miantiao.me/dailyrss'),
         (u'深夜食堂', 'http://zhihurss.miantiao.me/section/id/1'),
         ('Matrix67', 'http://www.matrix67.com/blog/feed'),
+        (u'IT橘子', 'https://rsshub.app/itjuzi/invest'),
+        (u'FT 中文网', 'https://rsshub.app/ft/chinese/hotstoryby7day'),
     ]
 
