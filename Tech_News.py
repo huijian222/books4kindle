@@ -16,7 +16,7 @@ class tech(BaseFeedBook):
     mastheadfile = "mh_default.gif"
     coverfile = "cv_default.jpg"
     network_timeout = 60
-    oldest_article = 1
+    oldest_article = 2
     max_articles_per_feed = 10
     feeds = [
         ('36kr', 'https://rsshub.app/36kr/search/article/8%E7%82%B91%E6%B0%AA'),
@@ -35,7 +35,6 @@ class tech(BaseFeedBook):
         (u'科学松鼠会', 'http://songshuhui.net/feed'),
         (u'泛科学', 'http://pansci.tw/feed'),
         (u'果壳网', 'https://rsshub.app/guokr/scientific'),
-        ('The Economist', 'https://feedx.net/rss/economist.xml'),
         (u'知乎日报', 'http://zhihurss.miantiao.me/dailyrss'),
         (u'深夜食堂', 'http://zhihurss.miantiao.me/section/id/1'),
         ('Matrix67', 'http://www.matrix67.com/blog/feed'),
